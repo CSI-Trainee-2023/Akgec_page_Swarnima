@@ -1,0 +1,52 @@
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url('./building1.jpg') no-repeat center center/cover;
+
+}
+#Enquiry1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#Enquiry1 input, 
+#Enquiry1 textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#Enquiry form{
+    width: 40%;
+}
+
+#Enquiry1 label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+.primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align: center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(107, 177, 218);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+} 

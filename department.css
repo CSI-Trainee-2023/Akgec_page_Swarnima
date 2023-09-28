@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    margin:  100px auto;
+    width: fit-content;
+}
+body::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url('./building2.jpg') no-repeat center center/cover;
+}
+.department{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: yellow;
+    box-shadow: 5px 3px;
+}
+.department a{
+    text-decoration: none ;
+}
+.department:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.3,1.3);
+}

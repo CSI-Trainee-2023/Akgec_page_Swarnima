@@ -82,7 +82,7 @@ text-shadow: 3px 3px white;
     height: 100%;
     z-index: -1;
     opacity: 0.9;
-    background: url('./building5.jpg') no-repeat center center/cover;
+    background: url('./images/building5.jpg') no-repeat center center/cover;
 
 }
 p{
@@ -104,7 +104,7 @@ p{
     height: 100%;
     z-index: -1;
     opacity: 0.9;
-    background: url('./building3.jpg') no-repeat center center/cover;
+    background: url('./images/building4.jpg') no-repeat center center/cover;
 }
 #achievements img {
     margin: 50px;

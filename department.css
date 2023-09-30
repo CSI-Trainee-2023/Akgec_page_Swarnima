@@ -17,7 +17,7 @@ body::before{
     height: 100%;
     z-index: -1;
     opacity: 0.8;
-    background: url('./building2.jpg') no-repeat center center/cover;
+    background: url('./images/building2.jpg') no-repeat center center/cover;
 }
 .department{
     border: 1px solid black;

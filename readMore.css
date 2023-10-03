@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
     
- body::before{
+ /* body::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -16,27 +16,48 @@ body{
     z-index: -1;
     opacity: 0.7;
     background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
 
     /* background: url('images/luke-chesser-pJadQetzTkI-unsplash.jpg') no-repeat center center/cover; */
- }
+ 
  .about{
     text-align: center;
     font-size: 6rem;
-    margin: 10px;
+    color:white;
     font-family: 'Playfair Display', serif;
+    background-color: #17345b;
+    
  }
  .para{
     border-top: 4px solid #bcd631;
     padding: 3rem;
-    color: rgb(9, 0, 0); 
+    /* color: white;  */
     margin-left: 10px;
     text-align: center;
-    font-size: 20px; 
+    font-size: 2rem; 
+    background-color: rgb(89, 174, 240);
 
  }
- .para img{
-    width: auto ;
-    height: 30rem;
-    float: left;
+ 
+ .image1{
+   border-top: 3px solid #bcd631;
+   border-right: 3px solid #bcd631;
+   float: left;
+   padding: 3rem;
+   margin: 2rem;
+ }
+ .image2{
+   border-top: 3px solid #bcd631;
+   border-left: 3px solid #bcd631;
+   float: right;
+   padding: 3rem;
+   padding: 3rem; 
+   margin: 2rem;
+ }
+ .image3{
+   border-top: 3px solid #bcd631;
+   border-right: 3px solid #bcd631;
+   float: left;
+   padding: 3rem; 
+   margin: 2rem;
  }
